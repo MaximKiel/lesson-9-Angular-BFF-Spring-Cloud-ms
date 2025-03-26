@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/config" name="config">
+                <projects>
+                  <project path="$PROJECT_DIR$/config" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/gateway" name="gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/gateway" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/server" name="server">
+                <projects>
+                  <project path="$PROJECT_DIR$/server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/rs" name="rs">
+                <projects>
+                  <project path="$PROJECT_DIR$/rs" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/config" />
+            <option value="$PROJECT_DIR$/gateway" />
+            <option value="$PROJECT_DIR$/rs" />
+            <option value="$PROJECT_DIR$/server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

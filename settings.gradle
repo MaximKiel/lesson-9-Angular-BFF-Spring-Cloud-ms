@@ -1,0 +1,6 @@
+rootProject.name = 'ms'
+
+includeBuild 'config'
+includeBuild 'gateway'
+includeBuild 'server'
+includeBuild 'rs'
