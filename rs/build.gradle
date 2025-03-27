@@ -34,7 +34,8 @@ dependencies {
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
 
-
+    // драйвер БД
+    runtimeOnly 'org.postgresql:postgresql'
 }
 
 dependencyManagement {
